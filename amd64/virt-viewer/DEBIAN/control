@@ -1,0 +1,18 @@
+Package: virt-viewer
+Version: 4.0-2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
+Installed-Size: 1351
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.38), libgovirt2 (>= 0.3.4), libgtk-3-0 (>= 3.10), libgtk-vnc-2.0-0 (>= 0.4.1), libpango-1.0-0 (>= 1.14.0), librest-0.7-0 (>= 0.8.0), libspice-client-glib-2.0-8 (= 0.33-master), libspice-client-gtk-3.0-5 (= 0.33-master), libvirt-glib-1.0-0 (>= 0.0.7~), libvirt0 (>= 1.2.8~rc2), libxml2 (>= 2.7.4)
+Suggests: netcat
+Section: admin
+Priority: extra
+Homepage: http://virt-manager.et.redhat.com/
+Description: Displaying the graphical console of a virtual machine
+ The console is accessed using the VNC protocol. The guest can be referred to
+ based on its name, ID, or UUID. If the guest is not already running, then the
+ viewer can be told to wait until is starts before attempting to connect to the
+ console The viewer can connect to remote hosts to lookup the console
+ information and then also connect to the remote console using the same network
+ transport.

@@ -1,0 +1,17 @@
+Package: libspice-client-gtk-3.0-4
+Source: spice-gtk
+Version: 0.31-1
+Architecture: armhf
+Maintainer: Jun Tsai <jcai@ganshane.com>
+Original-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 278
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libepoxy0 (>= 1.0), libgdk-pixbuf2.0-0 (>= 2.30), libglib2.0-0 (>= 2.36), libgtk-3-0 (>= 3.10), libspice-client-glib-2.0-8 (>= 0.31)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.spice-space.org/
+Description: GTK3 widget for SPICE clients (runtime library)
+ libspice-gtk3 provides gtk3 widget to show spice display
+ and accept user input.
+ .
+ This package provide the runtime library.
