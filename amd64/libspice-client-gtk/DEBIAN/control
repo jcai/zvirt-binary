@@ -5,7 +5,7 @@ Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Liang Guo <guoliang@debian.org>
 Installed-Size: 278
-Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libepoxy0 (>= 1.0), libgdk-pixbuf2.0-0 (>= 2.31.1), libglib2.0-0 (>= 2.36), libgtk-3-0 (>= 3.17.9), libspice-client-glib-2.0-8 (= 0.33-master),vainfo,gstreamer1.0-libav
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libepoxy0 (>= 1.0), libgdk-pixbuf2.0-0 (>= 2.31.1), libglib2.0-0 (>= 2.36), libgtk-3-0 (>= 3.17.9), libspice-client-glib-2.0-8 (= 0.33-master),vainfo,gstreamer1.0-libav,gstreamer1.0-plugins-bad-videoparsers
 Section: libs
 Priority: optional
 Multi-Arch: same
