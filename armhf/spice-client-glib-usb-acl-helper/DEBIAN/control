@@ -1,0 +1,17 @@
+Package: spice-client-glib-usb-acl-helper
+Source: spice-gtk
+Version: 0.31-1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Liang Guo <guoliang@debian.org>
+Installed-Size: 41
+Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.4), libglib2.0-0 (>= 2.36), libpolkit-gobject-1-0 (>= 0.101)
+Breaks: libspice-client-glib-2.0-1, libspice-client-glib-2.0-8 (<< 0.20-0nocelt1)
+Replaces: libspice-client-glib-2.0-1, libspice-client-glib-2.0-8 (<< 0.20-0nocelt1)
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.spice-space.org/
+Description: Helper tool to validate usb ACLs
+ When passthrough USB devices to VMs, spice-client-glib-usb-acl-helper
+ is called to validate usb ACLs via policykit policy
